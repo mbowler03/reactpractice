@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const db = require("../models");
-
+require('dotenv').config()
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
